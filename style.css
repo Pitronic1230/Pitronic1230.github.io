@@ -1,0 +1,31 @@
+:root {
+    --pit-header-bg-color: #3333CC; 
+
+    --pit-MainPage-bg-color: #333399; 
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+header {
+    margin: 0px;
+    background-color: var(--pit-header-bg-color);
+    height: 100%;
+}
+
+hr {
+    border: solid 1px #000;
+    margin: 0;
+}
+
+.MainPage {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--pit-MainPage-bg-color);
+}
